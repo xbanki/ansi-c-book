@@ -1,3 +1,7 @@
+CXXFLAGS := -std=c++20 -Wall -Wextra -Wpedantic -O0 -g
+SRC_DIR := src
+BIN_DIR := bin
+
 COMMAND := $(firstword $(MAKECMDGOALS))
 EXERCISE := $(word 2,$(MAKECMDGOALS))
 

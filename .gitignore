@@ -43,6 +43,7 @@
 [._]sw[a-p]
 !*.svg
 *~
+bin/
 dkms.conf
 Mkfile.old
 modules.order
